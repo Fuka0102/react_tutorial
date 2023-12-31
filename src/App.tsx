@@ -1,5 +1,6 @@
 /** @format */
 import Square from './components/Square';
+import Game from './components/Game';
 import { useState } from 'react';
 
 function calculateWinner(squares) {
