@@ -1,5 +1,7 @@
 /** @format */
 
-export default function Square() {
-  return <button className='square'>1</button>;
+export default function Square(props) {
+  const { value } = props;
+
+  return <button className='square'>{value}</button>;
 }
